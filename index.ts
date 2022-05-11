@@ -60,14 +60,17 @@ const localeData = {
     }
 }
 
-function addEsLocaleToMoment(moment) {
+type Moment = any
+
+function setLocaleTo_ES_WithData(moment: Moment) {
     moment.locale('es', localeData)
 }
 
 
 export {
     localeData,
-    addEsLocaleToMoment,
+    setLocaleTo_ES_WithData,
 }
 
+export default setLocaleTo_ES_WithData
 
