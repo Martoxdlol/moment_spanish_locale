@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "description": "Moment spanish locale data",
   "main": "index.js",
-  "scripts": {
-
-  },
+  "repository": "https://github.com/Martoxdlol/moment_spanish_locale",
+  "scripts": {},
   "peerDependencies": {
     "moment": "any"
   },
