@@ -1,0 +1,22 @@
+{
+  "name": "moment_spanish_locale",
+  "version": "1.0.0",
+  "description": "Moment spanish locale data",
+  "main": "index.js",
+  "scripts": {
+
+  },
+  "peerDependencies": {
+    "moment": "any"
+  },
+  "keywords": [
+    "moment",
+    "momentjs",
+    "date",
+    "locale",
+    "es",
+    "spanish"
+  ],
+  "author": "Tomás Cichero <martoxdlol@gmail.com>",
+  "license": "MIT"
+}
