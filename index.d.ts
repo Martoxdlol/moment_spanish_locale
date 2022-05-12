@@ -47,5 +47,7 @@ declare const localeData: {
         doy: number;
     };
 };
-declare function addEsLocaleToMoment(moment: any): void;
-export { localeData, addEsLocaleToMoment, };
+declare type Moment = any;
+declare function setLocaleTo_ES_WithData(moment: Moment): void;
+export { localeData, setLocaleTo_ES_WithData, };
+export default setLocaleTo_ES_WithData;

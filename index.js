@@ -1,6 +1,6 @@
 "use strict";
 exports.__esModule = true;
-exports.addEsLocaleToMoment = exports.localeData = void 0;
+exports.setLocaleTo_ES_WithData = exports.localeData = void 0;
 var localeData = {
     months: 'enero_febrero_marzo_abril_mayo_junio_julio_agosto_septiembre_octubre_noviembre_diciembre'.split('_'),
     monthsShort: 'ene._feb._mar_abr._may_jun_jul._ago_sep._oct._nov._dic.'.split('_'),
@@ -62,7 +62,8 @@ var localeData = {
     }
 };
 exports.localeData = localeData;
-function addEsLocaleToMoment(moment) {
+function setLocaleTo_ES_WithData(moment) {
     moment.locale('es', localeData);
 }
-exports.addEsLocaleToMoment = addEsLocaleToMoment;
+exports.setLocaleTo_ES_WithData = setLocaleTo_ES_WithData;
+exports["default"] = setLocaleTo_ES_WithData;

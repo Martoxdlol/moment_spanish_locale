@@ -1,6 +1,6 @@
 {
   "name": "moment_spanish_locale",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Moment spanish locale data",
   "main": "index.js",
   "repository": "https://github.com/Martoxdlol/moment_spanish_locale",
