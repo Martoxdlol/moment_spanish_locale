@@ -39,11 +39,11 @@ const localeData = {
         yy: '%d años'
     },
     dayOfMonthOrdinalParse: /\d{1,2}(er|e)/,
-    ordinal: function (number) {
+    ordinal: function (number: number) {
         return number + (number === 1 ? 'er' : 'e');
     },
     meridiemParse: /PD|MD/,
-    isPM: function (input) {
+    isPM: function (input: string) {
         return input.charAt(0) === 'M';
     },
     // In case the meridiem units are not separated around 12, then implement
@@ -51,7 +51,7 @@ const localeData = {
     // meridiemHour : function (hour, meridiem) {
     //     return /* 0-23 hour, given meridiem token and hour 1-12 */ ;
     // },
-    meridiem: function (hours, minutes, isLower) {
+    meridiem: function (hours: number, minutes: number, isLower: number) {
         return hours < 12 ? 'PD' : 'MD';
     },
     week: {
